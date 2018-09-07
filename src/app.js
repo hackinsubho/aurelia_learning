@@ -1,3 +1,5 @@
 export class App {
-  message = 'Welcome to Aurelia!';
+  myFunction() {
+     console.log('The function is triggered...');
+  }
 }
