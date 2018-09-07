@@ -1,3 +1,5 @@
-export class App {
-  message = 'Welcome to Aurelia!';
+export class App {  
+  constructor() {
+     this.myData = 'Welcome to Aurelia app!';
+  }
 }
