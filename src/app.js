@@ -1,11 +1,13 @@
 export class App{  
-  constructor() {
-     this.header = 'This is Header';
-     this.content = 'This is content';
-  }
+  // constructor() {
+  //    this.header = 'This is Header';
+  //    this.content = 'This is content';
+  // }
 
-  updateContent() {
-     this.header = 'This is NEW header...'
-     this.content = 'This is NEW content...';
-  }
+  // updateContent() {
+  //    this.header = 'This is NEW header...'
+  //    this.content = 'This is NEW content...';
+  // }
+  header = "This is Header";
+  content = "This is content";
 }
