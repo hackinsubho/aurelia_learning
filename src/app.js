@@ -1,3 +1,5 @@
 export class App {
-  message = 'Welcome to Aurelia!';
+  constructor() {
+     this.currentDate = new Date();
+  }
 }
