@@ -9,4 +9,19 @@
   
         <button type = "submit">Signup</button>
      </form>
+     <form role = "form" submit.delegate = "submit()">
+        <label for = "checkbox">Checkbox</label>
+        <input type = "checkbox" id = "checkbox" checked.bind = "isChecked"><br/>
+        <button type = "submit">SUBMIT</button>   
+     </form>
+     <form role = "form" submit.delegate = "submit()">
+	
+        <label repeat.for = "option of options">
+           <input type = "radio" name = "myOptions" 
+              model.bind = "option" checked.bind = "$parent.selectedOption"/>
+              ${option.text}
+        </label><br/>
+      
+        <button type = "submit">SUBMIT</button>
+     </form>
 <template>
